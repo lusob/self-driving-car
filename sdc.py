@@ -123,12 +123,12 @@ def predict(args):
             i += 1
     print "Prediction done and csv file generated"
 
-def train_model():
+def train_model(args):
     dataset = args.dataset
     epoch_size = args.epochsize
     epoch = args.epoch
     img_info = ImgInfo(args.imgs, args.imgsformat)
-    model = create_model()
+    model = create_model(img_info)
     if os.path.exists("./outputs/steering_model"):
         print("Loading model weights.")
         model.load_weights("./outputs/steering_model/steering_angle.keras", True)

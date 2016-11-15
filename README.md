@@ -7,7 +7,8 @@ Once trained using just frame pictures files named with timestamp, it will predi
 You need to install keras and optionally Tensorflow as backend
 
 Fo ubuntu run these commands:
-sudo apt-get -y -qq install python-pip python-dev python-scipy
+sudo apt-get -y -qq install python-pip python-dev python-scipy python-h5py
+sudo pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.9.0-cp27-none-linux_x86_64.whl
 sudo pip install keras
 
 ##### To train the model
