@@ -14,12 +14,25 @@ sudo pip install https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-
 sudo pip install keras
 ```
 
-##### To train the model
+##### Get the data
+You can get the udacity driving data from this torrent
+
+http://academictorrents.com/details/9b0c6c1044633d076b0f73dc312aa34433a25c56
+
+It's a final dataset that consists of PNG images from the center camera only along with additional training data (all three cameras and steering angles in CSV format) is available here.
+This is a large file, around 70GB
+
+Once the model is trained to evaluate ant test it you can download this smaller set of images (1.9GB compressed) 
+
+http://bit.ly/2eVhdrA
+
+##### Train the model
 ```bash
 ./sdc.py --dataset path_to_data/steering_angles.csv --imgs  path_to_data/imgs
 ```
 
-##### To evaluate the model and generate a final csv with the tests dataset
+##### Evaluate the model and generate a final csv with the predicted angles for the tests dataset
+
 ```bash
 ./sdc.py --evaluate --imgs path_to_data/test_imgs
 ```
