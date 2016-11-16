@@ -28,13 +28,13 @@ http://bit.ly/2eVhdrA
 
 ##### Train the model
 ```bash
-./sdc.py --dataset path_to_data/steering_angles.csv --imgs  path_to_data/imgs
+./sdc.py train --imgs path_to_data/imgs_folder --dataset path_to_data/steering_angles.csv
 ```
 
 ##### Evaluate the model and generate a final csv with the predicted angles for the tests dataset
 
 ```bash
-./sdc.py --evaluate --imgs path_to_data/test_imgs
+./sdc.py predict --imgs path_to_data/test_imgs_folder
 ```
 
 ![alt tag](https://github.com/lusob/self-driving-car/raw/master/data-viewer-screenshot.png)
