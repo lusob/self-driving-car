@@ -37,5 +37,5 @@ http://bit.ly/2eVhdrA
 ./sdc.py --evaluate --imgs path_to_data/test_imgs
 ```
 
-![alt tag](https://raw.githubusercontent.com/lusob/master/data-viewer-screenshot.png)
+![alt tag](https://github.com/lusob/self-driving-car/raw/master/data-viewer-screenshot.png)
 
