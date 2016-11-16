@@ -1,4 +1,4 @@
-# lusob SDC (Open Source Self-Driving Car)
+# Open Source Self-Driving Car
 
 Self driving car model trainer for Udacity [Challenge #2](https://medium.com/udacity/challenge-2-using-deep-learning-to-predict-steering-angles-f42004a36ff3#.5650j9v4s)
 
