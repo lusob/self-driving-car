@@ -38,7 +38,7 @@ def read_data(dataset, epoch_size, img_info):
                     continue
                 ts = int(row[0])
                 #img = '../bag2csv_extractor/data/center/%s.pgm' % ts
-                img = '%s%s.%s.' % (img_info.imgs_path, ts, img_info.imgs_format)
+                img = '%s%s.%s' % (img_info.imgs_path, ts, img_info.imgs_format)
                 if not os.path.exists(img):
                     continue
                 img = Image.open(img)
